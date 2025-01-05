@@ -53,6 +53,10 @@ weather_reporterは以下のメッセージをパブリッシュします.
    ---
    ```
 
+## 必要なソフトウェア
+   
+- python3
+
 ## テスト環境
 
 - ROS2: Distribution: foxy
