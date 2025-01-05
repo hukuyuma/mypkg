@@ -33,7 +33,9 @@ ros2 run mypkg weather_reporter
 
 別端末にて以下を実行して、トピックのデータを確認する。
 
-ros2 topic echo /weather_advice_topic
+メッセージ例
+```bash
+ ros2 topic echo /weather_advice_topic
 
 実行例
 
