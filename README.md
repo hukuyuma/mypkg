@@ -33,12 +33,10 @@ ros2 run mypkg weather_reporter
 
 別端末にて以下を実行して、トピックのデータを確認する。
 
-メッセージ例
-```bash
- ros2 topic echo /weather_advice_topic
+ros2 topic echo /weather_advice_topic
 
 実行例
-
+```
 data: いい天気です！外出を楽しんでください。
 ---
 data: 雨が降っています。傘を忘れずに！
