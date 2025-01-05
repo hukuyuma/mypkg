@@ -52,14 +52,3 @@ data: いい天気です！外出を楽しんでください。
 data: 雨が降っています。傘を忘れずに！
 ---
 ```
-
-## テスト環境
-
-・Ubuntu 20.04 on Windows
-・ROS2
-  - Distribution: foxy
-
-## ライセンス
-
-* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-* このパッケージのhoistatuspublisher.py, test.bash以外のコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
