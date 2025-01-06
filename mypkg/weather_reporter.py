@@ -28,7 +28,8 @@ class WeatherReporter(Node):
         elif weather == "強風":
             advice_msg.data = "強風が吹いています。外出には注意してください！"
 
-        self.get_logger().info(f'Publishing: "{advice_msg.data}"')
+        # ログ出力を削除する
+        # self.get_logger().info(f'Publishing: "{advice_msg.data}"')
         self.publisher_.publish(advice_msg)
 
         # 次の天気に移行
